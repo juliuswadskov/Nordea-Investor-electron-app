@@ -1,7 +1,7 @@
 # Nordea-Investor-electron-app
 
 ## Før install
- - kør `npm install electron` og `npm install electron-builder --dev` i din terminal
+ - kør `npm install electron` og `npm install electron-builder --only=dev` i din terminal
 
 ## Install
  - Først skal du åbne din terminal og skrive `npm run build-installer`.
