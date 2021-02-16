@@ -12,16 +12,22 @@
     "build-installer": "electron-builder"
   },
   "build": {
-    "appId": "Investor",
+    "appId": "Nordea Investor",
+    "mac": {
+      "icon": "src/icon.ico"
+    },
+    "dmg": {
+      "icon": "src/icon.ico"
+    },
     "win": {
       "target": [
         "nsis"
       ],
-      "icon": "src/icon.png"
+      "icon": "src/icon.ico"
     },
     "nsis": {
-      "installerIcon": "src/icon.png",
-      "uninstallerIcon": "src/icon.png",
+      "installerIcon": "src/icon.ico",
+      "uninstallerIcon": "src/icon.ico",
       "license": "LICENSE",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
