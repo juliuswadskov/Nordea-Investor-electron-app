@@ -1,7 +1,7 @@
 # Nordea-Investor-electron-app
 
 ## Før du installere
- - Download [node.js](https://nodejs.org/en/download/)
+ - Download [node.js](https://nodejs.org/en/)
 
 ## Install
  - Kør `npm install electron` og `npm install electron-builder --only=dev` i din terminal
